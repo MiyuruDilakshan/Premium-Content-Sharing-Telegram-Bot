@@ -1,0 +1,221 @@
+# ========================================
+# TELEGRAM MEDIA DEEP LINK BOT
+# Python Package Requirements
+# Author: Miyuru Dilakshan
+# Website: miyuru.dev
+# ========================================
+
+# ========================================
+# CORE DEPENDENCIES
+# ========================================
+
+# Telegram Bot API - Main bot framework
+pyTelegramBotAPI==4.14.0
+
+# Environment Variables - Secure configuration management
+python-dotenv==1.0.0
+
+# ========================================
+# MEDIA PROCESSING
+# ========================================
+
+# Image Processing - For collage creation and manipulation
+Pillow==10.1.0
+
+# Video Processing - Computer vision for frame extraction
+opencv-python==4.8.1.78
+
+# Numerical Computing - Required by OpenCV
+numpy==1.24.3
+
+# ========================================
+# NETWORK & DOWNLOADS
+# ========================================
+
+# HTTP Requests - For parallel file downloads
+requests==2.31.0
+
+# ========================================
+# TELEGRAM MTProto
+# ========================================
+
+# Pyrogram - MTProto API for large files (>20MB)
+pyrogram==2.0.106
+
+# TgCrypto - Encryption for Pyrogram (speeds up downloads)
+TgCrypto==1.2.5
+
+# ========================================
+# INSTALLATION INSTRUCTIONS
+# ========================================
+#
+# Install all packages:
+#   pip3 install -r requirements.txt
+#
+# Or install with upgrade:
+#   pip3 install --upgrade -r requirements.txt
+#
+# Or install individually:
+#   pip3 install pyTelegramBotAPI==4.14.0
+#   pip3 install python-dotenv==1.0.0
+#   pip3 install Pillow==10.1.0
+#   pip3 install opencv-python==4.8.1.78
+#   pip3 install numpy==1.24.3
+#   pip3 install requests==2.31.0
+#   pip3 install pyrogram==2.0.106
+#   pip3 install TgCrypto==1.2.5
+#
+# ========================================
+# SYSTEM REQUIREMENTS
+# ========================================
+#
+# Before installing Python packages, you must install
+# system dependencies first:
+#
+# Ubuntu/Debian:
+#   sudo apt update
+#   sudo apt install -y python3 python3-pip python3-dev
+#   sudo apt install -y ffmpeg sqlite3 git curl wget
+#   sudo apt install -y libopencv-dev python3-opencv
+#   sudo apt install -y build-essential libssl-dev libffi-dev
+#
+# CentOS/RHEL/Fedora:
+#   sudo yum update -y
+#   sudo yum install -y python3 python3-pip python3-devel
+#   sudo yum install -y ffmpeg sqlite git curl wget
+#   sudo yum install -y opencv opencv-devel
+#   sudo yum install -y gcc gcc-c++ make openssl-devel
+#
+# MacOS (with Homebrew):
+#   brew install python3 ffmpeg sqlite opencv
+#   brew install pkg-config
+#
+# Windows:
+#   1. Install Python from python.org
+#   2. Download FFmpeg from ffmpeg.org
+#   3. Add FFmpeg to PATH
+#   4. Install Visual C++ Build Tools
+#
+# ========================================
+# TROUBLESHOOTING
+# ========================================
+#
+# If you encounter errors during installation:
+#
+# 1. OpenCV installation fails:
+#    pip3 install opencv-python-headless==4.8.1.78
+#
+# 2. TgCrypto installation fails:
+#    - Make sure you have gcc/build-essential installed
+#    - On Windows: Install Visual C++ Build Tools
+#
+# 3. Permission denied errors:
+#    pip3 install --user -r requirements.txt
+#
+# 4. Outdated pip:
+#    python3 -m pip install --upgrade pip
+#    pip3 install -r requirements.txt
+#
+# 5. Virtual environment (recommended):
+#    python3 -m venv venv
+#    source venv/bin/activate  # Linux/Mac
+#    venv\Scripts\activate     # Windows
+#    pip install -r requirements.txt
+#
+# ========================================
+# OPTIONAL DEPENDENCIES
+# ========================================
+#
+# For development:
+#   pip3 install pytest black flake8 mypy
+#
+# For enhanced logging:
+#   pip3 install colorlog
+#
+# For process management:
+#   pip3 install supervisor
+#
+# ========================================
+# VERSION COMPATIBILITY
+# ========================================
+#
+# Python Version: 3.8+
+# Tested on:
+#   - Python 3.8, 3.9, 3.10, 3.11
+#   - Ubuntu 20.04, 22.04
+#   - Debian 10, 11
+#   - CentOS 7, 8
+#   - Fedora 36+
+#   - MacOS 12+
+#
+# ========================================
+# PACKAGE DESCRIPTIONS
+# ========================================
+#
+# pyTelegramBotAPI:
+#   - Telegram Bot API wrapper
+#   - Handles bot commands, messages, callbacks
+#   - File uploads and downloads
+#
+# python-dotenv:
+#   - Loads environment variables from .env file
+#   - Keeps sensitive data secure
+#
+# Pillow:
+#   - Python Imaging Library (PIL Fork)
+#   - Image processing for collages
+#   - Supports JPEG, PNG, etc.
+#
+# opencv-python:
+#   - Computer vision library
+#   - Video frame extraction
+#   - Watermark application
+#
+# numpy:
+#   - Scientific computing
+#   - Required by OpenCV for array operations
+#
+# requests:
+#   - HTTP library
+#   - Parallel file downloads
+#   - API requests
+#
+# pyrogram:
+#   - Modern Telegram MTProto API
+#   - Large file support (up to 2GB)
+#   - Faster downloads than Bot API
+#
+# TgCrypto:
+#   - Cryptography for Pyrogram
+#   - Speeds up encryption/decryption
+#   - Written in C for performance
+#
+# ========================================
+# SECURITY NOTES
+# ========================================
+#
+# - Always use latest versions for security patches
+# - Review package changelogs before upgrading
+# - Use virtual environments to isolate dependencies
+# - Never commit .env file or credentials
+#
+# ========================================
+# SUPPORT
+# ========================================
+#
+# If you need help with installation:
+#
+# Email:    Miyurudilakshan@gmail.com
+# WhatsApp: +94 78 7517274
+# Website:  https://miyuru.dev
+# LinkedIn: https://www.linkedin.com/in/miyurudilakshan
+# GitHub:   https://github.com/MiyuruDilakshan
+#
+# ========================================
+# LICENSE
+# ========================================
+#
+# This project is licensed under the MIT License.
+# See LICENSE file for details.
+#
+# ========================================
