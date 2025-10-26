@@ -4,7 +4,9 @@
 
 **Welcome to the Premium Content Sharing Telegram Bot! 🎉 
 This powerful Python-based bot, powered by Telebot, allows admins to upload videos or photos, customize previews, collages, and watermarks, and generate secure deep links for sharing exclusive content. Users access media via these links, with optional protection to prevent unauthorized forwarding or saving. Perfect for content creators, channels, or businesses distributing premium material safely and efficiently.
-Built with ❤️ by Miyuru Dilakshan – a passionate developer focused on innovative Telegram solutions.**
+
+Built with ❤️ by Miyuru Dilakshan 
+a passionate developer focused on innovative Telegram solutions.**
 
 [Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Usage](#-usage) • [VPS Hosting](#-vps-hosting-247) • [Support](#-support)
 
@@ -124,7 +126,7 @@ mkdir ~/telegram-media-bot
 cd ~/telegram-media-bot
 
 # Download bot files (or git clone if you have a repository)
-# git clone https://github.com/YOUR_USERNAME/telegram-media-bot.git .
+# git clone https://github.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot.git
 ```
 
 #### Step 4: Install Python Dependencies
@@ -312,7 +314,7 @@ sudo journalctl -u telegram-media-bot -f
 
 1. **Start the bot** on Telegram by searching for your bot username
 2. **Send `/start`** - You'll see the admin panel
-3. **Upload media** (video or photo)
+3. **Upload or forward media** (video or photo)
 4. **Customize settings**:
    - 🎬 Video Preview (optional)
    - 🖼️ Image Collage (optional)
