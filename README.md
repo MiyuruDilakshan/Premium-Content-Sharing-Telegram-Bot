@@ -91,14 +91,14 @@ Run this single command to install everything automatically:
 
 ```bash
 # Download and run the installation script
-curl -sSL https://raw.githubusercontent.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot/refs/heads/main/install.sh | bash
 ```
 
 Or download and run manually:
 
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot/install.sh
+wget https://raw.githubusercontent.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot/refs/heads/main/install.sh
 
 # Make it executable
 chmod +x install.sh
