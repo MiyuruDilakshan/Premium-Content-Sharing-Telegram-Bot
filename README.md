@@ -91,8 +91,30 @@ Run this single command to install everything automatically:
 
 ```bash
 # Download and run the installation script
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/telegram-media-bot/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot/install.sh | bash
 ```
+
+Or download and run manually:
+
+```bash
+# Download the script
+wget https://raw.githubusercontent.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot/install.sh
+
+# Make it executable
+chmod +x install.sh
+
+# Run the installer
+./install.sh
+```
+
+**What the installer does:**
+- ✅ Detects your OS automatically
+- ✅ Installs all system dependencies (Python, FFmpeg, SQLite)
+- ✅ Clones the repository from GitHub
+- ✅ Installs Python packages
+- ✅ Guides you through configuration
+- ✅ Sets up systemd service for 24/7 operation
+- ✅ Starts the bot automatically
 
 ### Manual Installation
 
@@ -126,8 +148,9 @@ mkdir ~/telegram-media-bot
 cd ~/telegram-media-bot
 
 # Download bot files (or git clone if you have a repository)
-# git clone https://github.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot.git
+# git clone https://github.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot.git 
 ```
+
 
 #### Step 4: Install Python Dependencies
 
