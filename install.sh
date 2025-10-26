@@ -234,12 +234,12 @@ configure_bot() {
     echo -e "${YELLOW}  3. Copy your User ID${NC}"
     echo -e "${YELLOW}  Note: For multiple admins, separate IDs with commas (e.g., 123,456)${NC}"
     echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-    read -p "$(echo -e ${GREEN}Enter Admin User ID(s): ${NC})" ADMIN_IDS
+    read -p "$(echo -e ${GREEN}'Enter Admin User ID(s): '${NC})" ADMIN_IDS
     
     # Optional: Channel Message
     echo ""
     print_info "Step 4: Customize Bot Messages (Optional - Press Enter to skip)"
-    read -p "$(echo -e ${GREEN}Enter Channel Message [Leave empty for default]: ${NC})" CHANNEL_MESSAGE
+    read -p "$(echo -e ${GREEN}'Enter Channel Message [Leave empty for default]: '${NC})" CHANNEL_MESSAGE
     
     # Create .env file
     cat > .env << EOF
