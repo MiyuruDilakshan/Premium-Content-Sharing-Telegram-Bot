@@ -1,3 +1,4 @@
+<div align="center">
 # 🤖 Telegram Media Deep Link Bot
 
 <div align="center">
