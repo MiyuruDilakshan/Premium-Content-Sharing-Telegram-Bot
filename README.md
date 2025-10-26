@@ -1,6 +1,4 @@
-<div align="center">
 # 🤖 Telegram Media Deep Link Bot
-
 <div align="center">
 
 **Welcome to the Premium Content Sharing Telegram Bot! 🎉 
