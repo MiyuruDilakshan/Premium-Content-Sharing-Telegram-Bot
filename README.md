@@ -687,18 +687,6 @@ If you find this project useful, please give it a ⭐ on GitHub!
 
 ---
 
-## 📸 Screenshots
-
-### Admin Panel
-<kbd>![Admin Panel](screenshots/admin-panel.png)</kbd>
-
-### Media Upload Options
-<kbd>![Upload Options](screenshots/upload-options.png)</kbd>
-
-### Generated Preview & Collage
-<kbd>![Preview Collage](screenshots/preview-collage.png)</kbd>
-
----
 
 ## 🎉 Acknowledgments
 
