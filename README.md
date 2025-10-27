@@ -13,23 +13,6 @@ a passionate developer focused on innovative Telegram solutions.**
 
 ---
 
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Requirements](#-requirements)
-- [Installation](#-installation)
-  - [Quick Install (Ubuntu/Debian)](#quick-install-ubuntudebian)
-  - [Manual Installation](#manual-installation)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [VPS Hosting 24/7](#-vps-hosting-247)
-- [Database](#-database)
-- [Commands Reference](#-commands-reference)
-- [Troubleshooting](#-troubleshooting)
-- [Support](#-support)
-- [License](#-license)
-
----
 
 ## ✨ Features
 
