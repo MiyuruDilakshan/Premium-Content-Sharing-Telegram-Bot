@@ -1,18 +1,18 @@
 # 🤖 Telegram Media Deep Link Bot
 <div align="center">
 
-**Welcome to the Premium Content Sharing Telegram Bot! 🎉 
-This powerful Python-based bot, powered by Telebot, allows admins to upload videos or photos, customize previews, collages, and watermarks, and generate secure deep links for sharing exclusive content. Users access media via these links, with optional protection to prevent unauthorized forwarding or saving. Perfect for content creators, channels, or businesses distributing premium material safely and efficiently.
+**Welcome to the Premium Content Sharing Telegram Bot! 🎉**  
+This **Python-based Telegram bot**, powered by Telebot, allows admins to upload videos or photos, generate **secure deep links**, customize **previews, collages, and watermarks**, and share premium content safely. Users access media via links with optional **forward/save restrictions**. Perfect for content creators, channels, and businesses distributing media efficiently.  
 
-Built with ❤️ by Miyuru Dilakshan 
-a passionate developer focused on innovative Telegram solutions.**
+In addition, creators can **monetize content** by unlocking links via **traffic-based rewards (CPM) or user tasks** using platforms like [Rekonise.com](https://rekonise.com), turning Telegram into a **scalable revenue channel**.  
+
+Built with ❤️ by Miyuru Dilakshan, a passionate developer focused on innovative Telegram solutions.
 
 [Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Usage](#-usage) • [VPS Hosting](#-vps-hosting-247) • [Support](#-support)
 
 </div>
 
 ---
-
 
 ## ✨ Features
 
@@ -35,7 +35,7 @@ a passionate developer focused on innovative Telegram solutions.**
 - ✅ Adjustable opacity (10% - 100%)
 - ✅ High-quality video watermarking with audio preservation
 
-### 🚀 **Performance**
+### 🚀 **Performance & Scalability**
 - ✅ **Parallel downloads** (up to 8 simultaneous connections)
 - ✅ Optimized MTProto for large files
 - ✅ Automatic cleanup of temporary files
@@ -46,7 +46,12 @@ a passionate developer focused on innovative Telegram solutions.**
 - ✅ Broadcast messages to all users
 - ✅ File management (list, delete)
 - ✅ Customizable bot settings
-- ✅ User tracking for analytics
+- ✅ User tracking and analytics
+
+### 💰 **Monetization**
+- ✅ Unlock media links via **traffic-based rewards (CPM)** or **user tasks**
+- ✅ Supports creators to **generate revenue** directly via Telegram
+- ✅ Integrated with **Rekonise.com** for secure monetization
 
 ---
 
@@ -65,14 +70,15 @@ a passionate developer focused on innovative Telegram solutions.**
 
 ---
 
+## 🔧 Key Technologies
+Python • Telebot • MTProto • FFmpeg • PostgreSQL • AsyncIO • Rekonise (monetization)
+
+---
+
 ## 🚀 Installation
 
 ### Quick Install (Ubuntu/Debian)
-
-Run this single command to install everything automatically:
-
 ```bash
-# Download and run the installation script
 curl -sSL https://raw.githubusercontent.com/MiyuruDilakshan/Premium-Content-Sharing-Telegram-Bot/refs/heads/main/install.sh | bash
 ```
 
